@@ -1,0 +1,75 @@
+@media screen and (min-width:800px){ 
+  #fusion-scroll-section-1 , #fusion-scroll-section-2 .fusion-column-wrapper{
+  	min-height:480px;
+    position:relative;
+	}
+  
+  #fusion-scroll-section-1 ,#fusion-scroll-section-3{
+  	padding-right:20px;
+  }
+  
+  #fusion-scroll-section-2 .fusion-column-wrapper span{
+  	position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-120px;
+  }
+  .fusion-scroll-container{
+  margin:70px 0px;
+  padding:0 30px;
+ }
+  .fusion-scroll-section{
+  	padding:30px 0 20px 0;
+  } 
+}
+
+@media screen and (max-width: 800px){
+	.fusion-scroll-container{
+  margin:20px 0px;
+  padding:0px 15px;
+ }
+  #fusion-scroll-section-2{
+  	padding-bottom:20px;
+  }
+  .fusion-header{
+  	padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  #side-header .fusion-logo, .fusion-header .fusion-logo {
+    margin-top: 18px !important;
+    margin-right: 0px !important;
+    margin-bottom: 18px !important;
+    margin-left: 0px !important;
+  }
+}
+
+/*底部样式修改*/
+.fusion-social-links-footer{
+	display:none !important;
+}
+
+#text-2{
+	margin:0!important;
+}
+
+#text-2 p{
+ margin:0;
+ padding:0;
+}
+
+.fusion-footer-widget-area{
+	padding:20px 0 0 0 !important;
+}
+
+.fusion-footer-widget-area  .fusion-column{
+	  margin-bottom:0 !important;
+}
+
+#footer{
+ padding:10px 0 20px 0 !important;
+}
+
+#media_image-2{
+	padding-top:10px;
+}
